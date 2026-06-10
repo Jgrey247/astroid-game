@@ -3,7 +3,7 @@ import pygame
 from constants import LINE_WIDTH, SHOT_RADIUS
 
 class Shot (CircleShape):
-    def __init__(self, x, y, radius):
+    def __init__(self, x, y):
         super().__init__(x, y, SHOT_RADIUS)
     
     # draw bullet
